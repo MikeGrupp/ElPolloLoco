@@ -28,6 +28,26 @@ window.addEventListener("keydown", (event) => {
         keyboard.SPACE = true;
     }
 
+    if (event.keyCode == 87) {
+        keyboard.W = true;
+    }
+
+    if (event.keyCode == 65) {
+        keyboard.A = true;
+    }
+
+    if (event.keyCode == 83) {
+        keyboard.S = true;
+    }
+
+    if (event.keyCode == 68) {
+        keyboard.D = true;
+    }
+    
+    if (event.keyCode == 69) {
+        keyboard.E = true;
+    }
+
     console.log(event);
 });
 
